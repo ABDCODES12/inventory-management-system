@@ -14,17 +14,6 @@ This application enables users to:
 - Supports both **Arabic and English** languages, allowing flexible usage  
 - Store and retrieve data securely from a MySQL database  
 
-### 🖼️ Screenshots
-
-*(Add your screenshots below by replacing the paths with your actual image files)*
-
-![Main Window](images/main_window.png)  
-*Main window with inventory list*
-
-![Add Item](images/add_item.png)  
-*Form to add new furniture*
-
----
 
 ## 🛠 Features
 
