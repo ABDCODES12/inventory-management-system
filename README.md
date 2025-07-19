@@ -45,35 +45,33 @@ This application enables users to:
 - **Python 3.x** installed ([Download Python](https://www.python.org/downloads/))  
 - **MySQL Server** installed and running  
 - Clone the repo:
-
-```bash
 git clone https://github.com/ABDCODES12/inventory-management-system.git
 cd inventory-management-system
 
-2. Install Python dependencies
+### 2. Install Python dependencies
 pip install pillow customtkinter mysql-connector-python python-barcode python-dotenv
 
-3. Configure your database connection
+### 3. Configure your database connection
 Create a .env file in the project root directory with the following contents:
 DB_HOST=localhost
 DB_USER=your_mysql_username
 DB_PASSWORD=your_mysql_password
 DB_NAME=furniture_db
 
-4. Run the application
+### 4. Run the application
 If using Jupyter Notebook:
 jupyter notebook Main.ipynb
 Or run a Python script directly (if applicable):
 python main.py
 
-⚠️ Troubleshooting
+## ⚠️ Troubleshooting
 Environment Variables Not Loading?
 If you encounter issues with load_dotenv(), try specifying the full path to your .env file:
 from dotenv import load_dotenv
 load_dotenv(dotenv_path="full/path/to/.env")
 Replace "full/path/to/.env" with the absolute path on your machine.
 
-📦 Dependencies
+## 📦 Dependencies
 Pillow — for image handling
 
 customtkinter — for enhanced, modern Tkinter widgets (used extensively)
